@@ -24,6 +24,7 @@ Resources to be created:
 The following are the steps to be followed to deploy the application:
 
 * Login to AWS by using aws sso, aws-vault or whatever method you use to connect to AWS CLI, then, run the following commands accordingly:
+* cd into directory `hello-ecs`
 * `npm install -g aws-cdk`  install AWS CDK
 * `npm install`             install dependencies inside the construct(s) / stack(s)
 * `npx cdk synth`           emits the synthesized CloudFormation template
