@@ -10,7 +10,7 @@ This were the L2 Constructs used to deploy the solution:
 Resources to be created:
 - 2 AZs defined
 - VPC with the specified CIDR
-- Deploys 2 subnets, 1 per AZ, as follows:
+- Deploys 3 subnets, 1 per AZ, as follows:
   - Public Subnet (Ingress)
   - Private Subnet with NAT Egress (Application)
   - Private Isolated Subnet (RDS)
